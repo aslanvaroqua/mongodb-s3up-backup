@@ -82,5 +82,4 @@ tar -C $DIR/backup/ -zcvf $DIR/backup/$ARCHIVE_NAME $FILE_NAME/
 rm -r $DIR/backup/$FILE_NAME
 
 # Send the file to the backup drive or S3
-
-s3cmd put $ARCHIVE_NAME s3://$S3_BUCKET/$ARCHIVE_NAME
+s3cmd put backup/$ARCHIVE_NAME s3://$S3_BUCKET/$ARCHIVE_NAME

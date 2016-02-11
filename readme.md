@@ -1,5 +1,5 @@
 Took a script by RGB Boy that did not work for me out of the box and instead of using keys, doing manual md5/ signatures, I am using s3up... You configure once and your done. 
-You dont need to put amazon keys and such in the file.. much much easier. 
+You dont need to put amazon keys and such in the file.. much much easier.
 
 Instead of this:
 HEADER_DATE=$(date -u "+%a, %d %b %Y %T %z")
