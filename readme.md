@@ -51,6 +51,8 @@ Add the following line to `/etc/cron.d/db-backup` to run the script every day at
 
     0 0 * * * root /bin/bash /path/to/backup.sh -u MONGODB_USER -p MONGODB_PASSWORD -b S3_BUCKET
 
+Aslan Varoqua
+
 # License 
 
 CREDIT TO RGBBOY FOR ORIGINAL SCRIPT  
